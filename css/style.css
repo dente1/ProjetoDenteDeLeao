@@ -1,0 +1,656 @@
+root { 
+    display: block;
+}
+
+body{
+    margin: 0px;
+    background-color: #d6edf9;
+    background: url(../imagens/fundo.jpg) no-repeat 0 0 fixed;
+    background-size:100% 100%;
+    
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;    
+    /*background-color:#00bfff;*/
+}
+
+/*#dell{
+    margin-topwidth: 100%;
+    height: 60px;
+}*/
+
+nav{
+    /* margin-top: 10px;*/
+    margin-topwidth: 100%;
+    height: 60px;
+    margin-top: 0,5px;
+    background: rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.5); /* Para navegadores IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000); /* Para navegadores IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)";
+    
+}
+
+#menuLogin{
+    width: 250px;
+    height: 150px;
+    background: rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.5); /* Para navegadores IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000); /* Para navegadores IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)";
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    -moz-border-rad8ius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#alinhar {
+	width: 800px;
+	height: 60px;
+        margin-left: 335px;
+}
+
+#botao1 {
+	position:relative;
+	width: 120px;
+	height: 50px;
+	background-color: #1E90FF;
+        margin-top: 5px;
+	float: left;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+#botao2 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	background-color:#1E90FF;
+        margin-top: 5px;
+	float: left;
+        margin-left: 10px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+#botao3 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	background-color: #1E90FF;
+        margin-top: 5px;
+	float: left;
+        margin-left: 10px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+#botao4 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	background-color: #1E90FF;
+        margin-top: 5px;
+	float:left;
+        margin-left: 10px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+#botao5 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	background-color: #1E90FF;
+        margin-top: 5px;
+	float:left;
+        margin-left: 10px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#alinhar2 {
+	width: 1000px;
+	height: 60px;
+        margin-left: 100px;
+}
+
+#botao6 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	background-color: orange;
+        margin-top: 5px;
+	float:left;
+        margin-left: 10px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#botao7 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	background-color: red;
+        margin-top: 5px;
+	float: left;
+        margin-left: 220px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#botao8 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	background-color: green;
+        margin-top: 5px;
+	float: left;
+        margin-left: 220px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#botao9{
+    position:relative;
+	width: 120px;
+	height: 50px;
+	background-color: #1E90FF;
+        margin-top: 5px;
+	float: left;
+        margin-left: 10px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#voltar{
+        font-family: Aldo the Apache;
+        position:relative;
+	width: 120px;
+	height: 50px;
+	background-color: green;
+        margin-top: 160px;
+	float: left;
+        margin-left: 50px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#index{
+    width: 1000px;
+    height: 1400px;
+    background: rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.5); /* Para navegadores IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000); /* Para navegadores IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)";
+    margin: 0 auto;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+
+section{
+    width: 1000px;
+    height: 600px;
+    background: rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.5); /* Para navegadores IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000); /* Para navegadores IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)";
+    margin: 0 auto;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+#entrar{
+    width: 1000px;
+    height: 600px;
+    background: rgb(255, 255, 255) transparent;
+    background: rgba(255, 255, 255, 0.5); /* Para navegadores IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000); /* Para navegadores IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)";
+    margin: 0 auto;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+    
+}
+#cadastre{
+    position:relative;
+    width: 450px;
+    height: 550px;
+    background-color: #b5c441;
+    margin-left: 35px;
+    margin-top: 25px;
+    float: left;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+#logar{
+    position:relative;
+    width: 450px;
+    height: 550px;
+    background-color: #dd6218;
+    margin-left: 35px;
+    margin-top: 25px;
+    float: left;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#logar2{
+    position:relative;
+    width: 450px;
+    height: 550px;
+    background-color: #dd6218;
+    margin-left: 275px;
+    margin-top: 25px;
+    float: left;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+    
+}
+
+#sobre{
+    width: 450px;
+    height: 550px;
+    background-color: #b5c441;
+    margin: auto;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+article{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    margin: 0 auto;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+#mapaDoSite{
+    width: 100%;
+    height: 200px;
+    background-color: #4f9e07;
+}
+
+#logotipo-3{
+    margin-top: 22px;
+    margin-left: 200px;
+    float: left;
+}
+#menuMapa{
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #593819;
+}
+
+#fonte{
+    font-family:Calibri;
+    font-size:20pt;
+    margin-top: 5px;
+    text-align: center;
+    
+    font-size: 30px;
+    color: white;
+}
+#fonte2{
+    margin-top: 8px;
+    text-align: center;
+    font-family: Book Antiqua;
+    font-size: 15px;
+    text-align: left;
+    text-height: auto;
+    color: #fefdfd;
+}
+p{
+font-family:Georgia;
+font-size:12pt;
+line-height:12pt;
+text-align: center;
+text-decoration:none;
+font-weight:normal;
+color: white;
+margin-top: -2px;
+}
+
+h1{
+font-family:Calibri;
+font-size:25pt;
+line-height:20pt;
+text-align: center;
+text-decoration:none;
+font-weight:normal;
+}
+
+h2{
+font-family:Georgia;
+color: #696969;
+font-size:20pt;
+line-height:20pt;
+text-align:left;
+text-decoration:none;
+font-weight:normal;
+background-color: #B22222;
+}
+
+h4{
+font-family:Georgia;
+color: #363636;
+font-size:20pt;
+line-height:20pt;
+text-align:left;
+text-decoration:none;
+font-weight:normal;
+}
+
+h3{
+font-family:Trajan Pro;
+font-size:10pt;
+text-align:center;
+}
+
+h5{
+font-family:Lucida Fax;
+font-size:15pt;
+text-align:center;
+line-height:5pt;
+}
+
+h6{
+font-family:Georgia;
+color: black;
+font-size:15pt;
+line-height:20pt;
+text-align:center;
+text-decoration:none;
+font-weight:normal;
+text-align:center;
+}
+
+
+ a:link{
+   font-family:Aldo the Apache;
+   font-size:12pt;
+   color: black;
+   text-decoration:none;
+   }
+   
+   a:visited{
+   font-family:Aldo the Apache;
+   font-size:12pt;
+   color: black;
+   }
+   
+   a:hover{
+   font-family:Aldo the Apache;
+   font-size:12pt;
+   color: white;
+   }
+   
+   #triangulo {
+        width: 0;
+        height: 0;
+        float: left;
+        margin-left: 10px;
+        margin-top: 100px;
+        border-left: 150px solid transparent;
+        border-right: 150px solid transparent;
+        border-bottom: 300px solid orange;
+}
+
+#circulo {
+        width: 300px;
+        height: 300px;
+        float: left;
+        margin-left: 40px;
+        margin-top: 100px;
+        background: red;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 80px;
+}
+
+#quadrado {
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        margin-top: 100px;
+        float: left;
+        background: green; /* Cor verde */
+}
+
+.giroeth{-webkit-transition-duration: 1.20s; width:64px;}
+.giroeth:hover{-webkit-transform: rotate(180deg);} 
+
+.giroeth2{-webkit-transition-duration: 1.20s; width:64px;}
+.giroeth2:hover{-webkit-transform: rotate(360deg);} 
+
+
+#alinhamento{
+    width: 950px;
+    height: 200px;
+    float: left;
+    margin-left:0px;
+    margin-top: 20px;
+    
+    
+}
+
+#mapa_0{
+ font-family:Georgia;
+ font-size: 17pt;
+ margin-left: 20px;
+}
+
+#mapa_1{
+font-family:Georgia;
+font-size:15pt;
+float: left;
+margin-left: 20px;
+margin-top: 6px;
+}
+
+#mapa_2{
+font-family:Georgia;
+font-size:15pt;
+float: left;
+margin-left: 40px;
+margin-top: 8px; 
+font-size: 13pt;
+}
+
+#mapa_3{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -25px;
+    font-size: 13pt;
+}
+
+#mapa_4{
+font-family:Georgia;
+font-size: 13pt;
+float: left;
+margin-left: 40px;
+margin-top: -40px;
+font-size: 13pt;
+}
+
+#mapa_5{
+font-family:Georgia;
+font-size: 13pt;
+float: left;
+margin-left: 40px;
+margin-top: 40px;
+font-size: 13pt;
+}
+
+#texto_index{
+    position: absolute;
+    font-size:20pt;
+    color:black ;
+    float: left;
+    margin-top:-312px;
+    margin-left: 300px;
+    
+}
+
+#linha1 {
+    position: absolute;
+    width: 670px;
+    height: 5px;
+    float: top;
+    margin-top: -285px;
+    margin-left: 47px;
+    background-color: #1E90FF;
+}
+
+#quadrado1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -250px;
+    background-color: #dd6218;
+}
+ 
+
+#quadrado2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -10px;
+    background-color: #dd6218;
+    
+}
+
+#quadrado3{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 420px;
+    margin-top: -250px;
+    background-color: #dd6218;
+}
+ 
+
+#quadrado4{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 420px;
+    margin-top: -10px;
+    background-color: #dd6218;
+}
+
+#quadrado5{
+    position: absolute;
+    width: 200px;
+    height: 440px;
+    float: left;
+    margin-left: 770px;
+    margin-top: -250px;
+    background-color: #4f9e07;
+}
+#linha2{
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    float: top;
+    margin-top: -285px;
+    margin-left: 768px;
+    background-color: #1E90FF;
+}
+
+#texto_index2{
+    position: absolute;
+    font-size:20pt;
+    color:black ;
+    float: left;
+    margin-top:-312px;
+    margin-left: 820px;
+}
+
+#linha3{
+    position: absolute;
+    width: 920px;
+    height: 5px;
+    float: top;
+    margin-top: 270px;
+    margin-left: 47px;
+    background-color: #1E90FF;
+}
+
+#texto_index3 {
+    position: absolute;
+    font-size:20pt;
+    float: left;
+    margin-top:237px;
+    margin-left: 410px;
+    color: black;
+}
+
+#quadrado1_1{
+    position: absolute;
+    float: left;
+    margin-left: 50px;
+    margin-top: 300px;
+    
+}
+
+#quadrado2_2{
+    position: absolute;
+    float: left;
+    margin-left: 50px;
+    margin-top: 530px;
+    
+}
+
+#fonte3{
+    font-family:Georgia; 
+    font-size:20pt;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+#fonte4{
+    font-family:Georgia; 
+    font-size:20pt;
+    text-align: center;
+}
+
+#fonte5{
+    font-size:12pt;
+    margin-top: 0px;
+}
